@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: #85dcff;
+}
+
+header{
+    color: rgb(81, 0, 255);
+    width: 100;
+    background-color: #cc64ad;
+    padding: 1em;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+section{
+    padding: 10px;
+}
+
+body{
+    background-color: #64517f;
+}
+
+article{
+    background-color: rgb(222, 236, 248);
+    padding: 20px;   /* bil frá texta að brún kassa */
+    border-radius: 10px; /* valfrjálst – gerir kassann fallegri */
+}
+
+aside{
+    background-color: rgb(182, 255, 195);
+    border-radius: 10px;
+}
+
+
+.eitt{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+.tvo{
+    display: grid;
+  grid-template-columns: 2fr 1fr; /* article 3x wider than aside */
+  gap: 20px;
+}
+.trir{
+    display: grid;
+  grid-template-columns: 2fr 1fr; /* article 3x wider than aside */
+  gap: 20px;
+}
+.fjorir{
+    display: grid;
+  grid-template-columns: 2fr 1fr; /* article 3x wider than aside */
+  gap: 20px;
+}.fimm{
+    display: grid;
+  grid-template-columns: 2fr 1fr; /* article 3x wider than aside */
+  gap: 20px;
+}
+.sex{
+    display: grid;
+  grid-template-columns: 2fr 1fr; /* article 3x wider than aside */
+  gap: 20px;
+}
+.sjo{
+    display: grid;
+  grid-template-columns: 2fr 1fr; /* article 3x wider than aside */
+  gap: 20px;
+}
+
+img {
+    max-width: 330px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+aside img {
+    margin-top: 15px;
+    margin-bottom: 15px;   /* bil á milli myndanna */
+}
